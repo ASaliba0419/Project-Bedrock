@@ -29,12 +29,9 @@ The API I will be using is from https://minecraft-ids.grahamedgecombe.com/api
 
 ## Wireframes
 
-
-
- 
+READ ADD ONS FILE
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
 -Find API to use 
 -Set up the site using HTML
@@ -63,7 +60,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+READ ADD ONS FILE
 
 ## Timeframes
 
