@@ -67,10 +67,14 @@ READ ADD ONS FILE
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Pseudocode | L | 3hrs | hrs | hrs |
-| Gather All Resoures | H | 2.5 | hrs | hrs |
-| Code HTML/Basic CSS | H | 4hrs| hrs | hrs |
-| Working with API | H | 3hrs| hrs | hrs |
-| CSS | H | 4hrs | hrs | hrs |
+| Gather All Resoures | H | 3hrs | hrs | hrs |
+| Code HTML | H | 5hrs| hrs | hrs |
+| Link Quotes | H | 4hrs| hrs | hrs |
+| Link Nav Bar | H | 1.5hrs| hrs | hrs |
+| Styling | H | 5hrs| hrs | hrs |
+| FlexBox | H | 5hrs| hrs | hrs |
+| Working with API | H | 5hrs| hrs | hrs |
+| Media Query | H | 4hrs| hrs | hrs |
 | Total | H | 16.5hrs| hrs | hrs |
 
 ## Code Snippet
