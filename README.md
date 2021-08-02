@@ -4,28 +4,28 @@
 
 ## Project Name
 
-Project-Bedrock
+Slurm-Factory
 
 ## Project Description
 
-Project-Bedrock is a Minecraft API created to be able to search through the many items Minecraft offers.
+Slurm-Factory is a Futurama API that takes a search request and returns a character from the show Futurama.
 
 ## API and Data Sample
 
-The API I will be using is from https://minecraft-ids.grahamedgecombe.com/api
-
+The API I will be using is from futuramaapi.herokuapp.com/api/v2/characters
+   
     {
-        "type": 4,
-        "meta": 0,
-        "name": "Cobblestone",
-        "text_type": "cobblestone"
+        "Species": "Decapodian Monster",
+        "Age": "86-92",
+        "Planet": "Formerly: Decapod 10Currently: Earth",
+        "Profession": "Planet Express (Physician)",
+        "Status": "Alive gra",
+        "FirstAppearance": "\"The Series Has Landed\"",
+        "PicUrl": "https://vignette.wikia.nocookie.net/en.futurama/images/4/45/Dr._John_A._Zoidberg.png/revision/latest/scale-to-width-down/327?cb=20101014052403",
+        "Relatives": "Norm Zoidberg,Sam Zoidberg,Sadie,Norman Zoidberg,Harold Zoid,Zoidfarb",
+        "VoicedBy": "Billy West",
+        "Name": "John A. Zoidberg"
     },
-    {
-        "type": 5,
-        "meta": 0,
-        "name": "Oak Wood Plank",
-        "text_type": "planks"
-    }
 
 ## Wireframes
 
@@ -36,18 +36,15 @@ READ ADD ONS FILE
 -Find API to use 
 -Set up the site using HTML
 -Use CSS to position where I want things to go as well as decorate the site
--Allow user to type in any block to pull up block ID number and MetaData number
+-Allow user to type in any character name and return information about the searched character
+-Add a search quote function to allow results to return with a quote from the searched character
 
 #### PostMVP  
 
-- Add another option in the nav bar to link an in-browser form of the minecraft game itself
-- Add animation to the quote on the main screen
+-Add a All Quotes API that returns random quotes in timed intervals
+-Add animation to the quote on the main screen
 
 ## Project Schedule
-
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
@@ -63,10 +60,6 @@ You are **responsible** for scheduling time with your squad to seek approval for
 READ ADD ONS FILE
 
 ## Timeframes
-
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
