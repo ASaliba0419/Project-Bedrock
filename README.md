@@ -67,11 +67,12 @@ READ ADD ONS FILE
 | --- | :---: |  :---: | :---: | :---: |
 | Pseudocode | L | 3hrs | hrs | hrs |
 | Gather All Resoures | H | 3hrs | hrs | hrs |
-| Code HTML | H | 5hrs| hrs | hrs |
+| Basic HTML | H | 3hrs| hrs | hrs |
+| Create dynamic JavaScript Elements | H | 3hrs| hrs | hrs |
 | Link Quotes | H | 4hrs| hrs | hrs |
 | Link Nav Bar | H | 1.5hrs| hrs | hrs |
-| Styling | H | 5hrs| hrs | hrs |
-| FlexBox | H | 5hrs| hrs | hrs |
+| Style text and prompts | H | 3hrs| hrs | hrs |
+| Layout webpage with Flexbox | H | 5hrs| hrs | hrs |
 | Working with API | H | 5hrs| hrs | hrs |
 | Media Query | H | 4hrs| hrs | hrs |
 | Total | H | 35.5hrs| hrs | hrs |
