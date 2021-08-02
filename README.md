@@ -75,7 +75,7 @@ READ ADD ONS FILE
 | FlexBox | H | 5hrs| hrs | hrs |
 | Working with API | H | 5hrs| hrs | hrs |
 | Media Query | H | 4hrs| hrs | hrs |
-| Total | H | 16.5hrs| hrs | hrs |
+| Total | H | 35.5hrs| hrs | hrs |
 
 ## Code Snippet
 
