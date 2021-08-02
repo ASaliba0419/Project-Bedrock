@@ -1,5 +1,3 @@
-
-
 # Project Overview
 
 ## Project Name
@@ -29,7 +27,7 @@ The API I will be using is from futuramaapi.herokuapp.com/api/v2/characters
 
 ## Wireframes
 
-READ ADD ONS FILE
+![Website Wireframing](https://user-images.githubusercontent.com/87334000/127892496-1a0d5f9f-84c4-490e-97f3-3b785cd6abfa.jpg)
 
 #### MVP 
 
@@ -59,7 +57,7 @@ READ ADD ONS FILE
 
 ## Priority Matrix
 
-READ ADD ONS FILE
+![Untitled](https://user-images.githubusercontent.com/87334000/127894670-915af9ae-4c5c-4d90-9885-6a22cbd3b734.jpg)
 
 ## Timeframes
 
@@ -75,7 +73,7 @@ READ ADD ONS FILE
 | Layout webpage with Flexbox | H | 5hrs| hrs | hrs |
 | Working with API | H | 5hrs| hrs | hrs |
 | Media Query | H | 4hrs| hrs | hrs |
-| Total | H | 35.5hrs| hrs | hrs |
+| Total | H | 34.5hrs| hrs | hrs |
 
 ## Code Snippet
 
