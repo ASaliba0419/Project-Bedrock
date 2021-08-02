@@ -36,6 +36,9 @@ READ ADD ONS FILE
 -Find API to use 
 -Set up the site using HTML
 -Use CSS to position where I want things to go as well as decorate the site
+-Scroll features in nav bar
+-Link Futurama show to externally take you to the series in YouTube
+-Embed YouTube video
 -Allow user to type in any character name and return information about the searched character
 -Add a search quote function to allow results to return with a quote from the searched character
 
