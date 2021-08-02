@@ -50,7 +50,7 @@ The API I will be using is from futuramaapi.herokuapp.com/api/v2/characters
 |---|---| ---|
 |July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
 |August 2| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
-|August 3| Pseudocode / actual code | Incomplete
+|August 3| Work with JavaScript and apply  | Incomplete
 |August 4| CSS/more code  | Incomplete
 |August 5| MVP | Incomplete
 |August 6| Presentations | Incomplete
