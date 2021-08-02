@@ -33,19 +33,18 @@ READ ADD ONS FILE
 
 #### MVP 
 
--Find API to use 
--Set up the site using HTML
--Use CSS to position where I want things to go as well as decorate the site
--Scroll features in nav bar
--Link Futurama show to externally take you to the series in YouTube
--Embed YouTube video
--Allow user to type in any character name and return information about the searched character
--Add a search quote function to allow results to return with a quote from the searched character
+- Find API to use 
+- Link anchor tag to sections
+- Allow user to type in any character name and return species, planet, first appearance, pictures, voiced by, name about the searched character
+- On new search, clear current search
 
 #### PostMVP  
 
--Add a All Quotes API that returns random quotes in timed intervals
--Add animation to the quote on the main screen
+- Add a All Quotes API that returns random quotes in timed intervals
+- Add animation to the quote on the main screen
+- Embed YouTube video
+- Link Futurama show to externally take you to the series in YouTube
+- Add a search quote function to allow results to return with a quote from the searched character
 
 ## Project Schedule
 
