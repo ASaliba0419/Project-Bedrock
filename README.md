@@ -1,5 +1,3 @@
-
-
 # Project Overview
 
 ## Project Name
@@ -29,7 +27,7 @@ The API I will be using is from futuramaapi.herokuapp.com/api/v2/characters
 
 ## Wireframes
 
-READ ADD ONS FILE
+![Website Wireframing](https://user-images.githubusercontent.com/87334000/127892496-1a0d5f9f-84c4-490e-97f3-3b785cd6abfa.jpg)
 
 #### MVP 
 
