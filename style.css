@@ -82,9 +82,8 @@ nav a:hover {
 text-align: right;
 }
 
-.searchbar {
-  margin-left: 250px;
-  padding: 80px;
+#select-character {
+  margin-left: 320px;
 }
 
 .qpage {
