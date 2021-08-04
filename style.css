@@ -1,0 +1,179 @@
+html {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: 0px;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  background-color: lightyellow;
+}
+
+header {
+  margin-top: -20px;
+  background-color: #ADE2D0ff;
+  margin-bottom: 10px;
+  max-width: auto;
+  max-height: 20vh;
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 70px 20px 20px 20px;
+}
+
+nav {
+  text-align: right;
+}
+
+@keyframes moveShip {
+  0% {
+    transform: translate3d(-350px, 0, 0);
+  }
+  100% {
+    transform: translate3d(1850px, 0, 0);
+  }
+}
+
+.PX {
+  /* position: relative; */
+  margin-top: -10vh;
+  width: auto;
+  animation: moveShip linear infinite 5s;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+
+.title-font {
+  margin-left: 1vw;
+  margin-top: -25vh;
+  margin-bottom: 2vh;
+  width: 37%;
+  height: auto;
+  }
+
+
+/* -----------------------------------------------------------HEADER----------------------------------------------------- */
+
+
+  
+  .goodnews {
+    display: inline-block;
+    margin-left: 67vw;
+    margin-right: 10vw;
+    margin-top: -15vh;
+    width: 28%;
+    height: auto;
+  }
+
+  .video {
+  text-align: right;
+  margin-left: 67vw;
+  margin-right: 10vw;
+  width: 30%;
+  height: 40vh;
+  }
+
+.charselect {
+  margin-left: 4vw;
+  margin-top: -7vh;
+  width: 30%;
+  height: auto;
+}
+
+.searchtag {
+  margin-left: 12vw;
+  margin-top: -35vh;
+  width: 20%;
+  height: auto;
+}
+
+
+form {
+  margin-left: 12.3vw;
+  margin-top: 2vh;
+  width: 20%;
+  height: auto;
+}
+
+.quotes {
+  display: flex;
+  justify-content: center;
+  margin-top: 8vh;
+  height: auto;
+}
+
+
+
+.qpage {
+    margin: 3vh 29vw;
+    border: 3px solid black;
+    padding: 15vh 12vw;
+    border-radius: 60%;
+    width: 16%;
+    height: auto;
+}
+
+/* @media screen and (max-width: 375px) {
+  header {
+    margin-top: -20px;
+    background-color: #ADE2D0ff;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    padding: 70px 20px 20px 20px;
+  }
+  
+  nav {
+    text-align: right;
+  }
+  
+  @keyframes moveShip {
+    0% {
+      transform: translate3d(-400px, 0, 0);
+    }
+    100% {
+      transform: translate3d(1900px, 0, 0);
+    }
+  }
+  
+  .PX {
+    position: relative;
+    margin-top: -120px;
+    animation: moveShip linear infinite 5s;
+  }
+
+} */
+
+#data-container {
+  margin-left: 10vw;
+}
+
+/* -----------------------------------------------------------FOOTER----------------------------------------------------- */
+
+footer {
+  padding: 10px;
+  background-color: #ADE2D0ff;
+  margin-bottom: -25px;
+}
+
+h6 {
+  text-align: center;
+}
