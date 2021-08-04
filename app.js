@@ -7,19 +7,11 @@ const getAllCharacters = async () => {
   try {
     const allCharacterURL = `https://futuramaapi.herokuapp.com/api/v2/characters`
     const response = await axios.get(allCharacterURL)
-    console.log(response)
-    const charList = Object.values(`${response.data[0].Name}`)
-    const joinChar = charList.join('')
-    const option = document.createElement("option")
-    // option.textContent = charList
-    option.textContent = joinChar
-    document.querySelector("#select-character").append(option)
-    console.log(charList)
+    // console.log(response.data)
+    
 
-    // setOptionTags(charList)
-    // console.log(charList)
-
-
+    optionTags(response.data)
+    return response
   } catch (error) {
     console.error(error)
   }
@@ -27,15 +19,23 @@ const getAllCharacters = async () => {
 
 getAllCharacters()
 
-function setOptionTags(list) {
-  list.forEach((char) => {
-    const optionTag = document.createElement('option')
-    optionTag.value = char
-    optionTag.textContent = char
-    selectTag.append(optionTag)
+function optionTags(charList) {
+  console.log(charList)
+
+  charList.forEach((char) => {
+    console.log(char.Name)
+    let optionTag = document.createElement('option')
+    console.log(optionTag)
+    optionTag.textContent = char.Name
+    optionTag.value = char.Name
+    
+    document.querySelector("#select-character").append(optionTag)
   })
-  return list
+  
+  
 }
+
+
 
 
 
