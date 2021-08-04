@@ -20,23 +20,29 @@ const getAllCharacters = async () => {
 getAllCharacters()
 
 function optionTags(charList) {
-  console.log(charList)
+  // console.log(charList)
 
   charList.forEach((char) => {
-    console.log(char.Name)
+    // console.log(char.Name)
     let optionTag = document.createElement('option')
-    console.log(optionTag)
+    // console.log(optionTag)
     optionTag.textContent = char.Name
     optionTag.value = char.Name
     
     document.querySelector("#select-character").append(optionTag)
+ 
+ 
   })
-  
   
 }
 
+console.log(form)
 
-
+form.addEventListener("submit", (e) => {
+  e.preventDefault()
+  const charValue = document.querySelector('select').value
+  console.log(charValue)
+})
 
 
 
