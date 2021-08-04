@@ -94,7 +94,12 @@ text-align: right;
     justify-content: space-around;
     padding: 100px 50px 200px 50px;
     border-radius: 60%;
+
     
+}
+
+h1 {
+  text-align: center;
 }
 /* -----------------------------------------------------------FOOTER----------------------------------------------------- */
 
