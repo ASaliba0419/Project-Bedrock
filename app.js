@@ -66,7 +66,7 @@ renderList = (render) => {
   let planetEl = document.createElement("h2")
   dataContainer.appendChild(planetEl)
   planetEl.textContent = `${render[selectTag.value].Planet}`
-  planetEl.value = `${render[selectTag.value].Planet}`
+  planetEl.value = `Planet: ${render[selectTag.value].Planet}`
 
   let speciesEl = document.createElement("h2")
   dataContainer.appendChild(speciesEl)

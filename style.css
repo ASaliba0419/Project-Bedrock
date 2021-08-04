@@ -54,16 +54,18 @@ nav a:hover {
 }
 
 
+.title-font {
+  margin-left: 1vw;
+  margin-top: -25vh;
+  margin-bottom: 2vh;
+  width: 37%;
+  height: auto;
+  }
 
 
 /* -----------------------------------------------------------HEADER----------------------------------------------------- */
 
 
-.title-font {
-  margin-left: 1vw;
-  width: 37%;
-  height: auto;
-  }
   
   .goodnews {
     display: inline-block;
