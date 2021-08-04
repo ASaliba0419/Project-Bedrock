@@ -58,14 +58,15 @@ renderList = (render) => {
   nameEl.textContent = `${render[selectTag.value].Name}`
   nameEl.value = `${render[selectTag.value].Name}`
 
+  let picPic = document.createElement('img')
+  dataContainer.appendChild(picPic)
+  picPic.src = `${render[selectTag.value].PicUrl}`
+  picPic.classList.add('picture')
+
   let planetEl = document.createElement("h2")
   dataContainer.appendChild(planetEl)
   planetEl.textContent = `${render[selectTag.value].Planet}`
   planetEl.value = `${render[selectTag.value].Planet}`
-
-  let picPic = document.createElement('img')
-  dataContainer.appendChild(picPic)
-  picPic.src = `${render[selectTag.value].PicUrl}`
 
   let speciesEl = document.createElement("h2")
   dataContainer.appendChild(speciesEl)
