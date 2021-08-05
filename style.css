@@ -1,8 +1,6 @@
 html {
-  scroll-behavior: smooth;
   padding: 0;
   margin: 0;
-  box-sizing: 0px;
   overflow-x: hidden;
 }
 
@@ -33,147 +31,241 @@ nav {
   text-align: right;
 }
 
+
 @keyframes moveShip {
   0% {
-    transform: translate3d(-350px, 0, 0);
+    transform: translate3d(-375px, 0, 0);
   }
   100% {
-    transform: translate3d(1850px, 0, 0);
+    transform: translate3d(1475px, 0, 0);
   }
 }
 
 .PX {
   /* position: relative; */
-  margin-top: -10vh;
+  margin-top: -14vh;
   width: auto;
   animation: moveShip linear infinite 5s;
 }
 
-nav a:hover {
-  color: yellow;
-}
-
 
 .title-font {
-  margin-left: 1vw;
-  margin-top: -25vh;
+  position: absolute;
+  z-index: 1;
+  margin-left: 31vw;
+  margin-top: -18vh;
   margin-bottom: 2vh;
   width: 37%;
   height: auto;
   }
 
 
+
 /* -----------------------------------------------------------HEADER----------------------------------------------------- */
 
 
   
-  .goodnews {
-    display: inline-block;
-    margin-left: 67vw;
-    margin-right: 10vw;
-    margin-top: -15vh;
-    width: 28%;
-    height: auto;
+.goodnews {
+  position: absolute;
+
+  left: 67vw;
+  width: 28%;
+  height: auto;
   }
 
-  .video {
-  text-align: right;
-  margin-left: 67vw;
-  margin-right: 10vw;
+  
+.video {
+  position: absolute;
+  left: 67vw;
+  top: 25vh;
   width: 30%;
   height: 40vh;
   }
 
 .charselect {
-  margin-left: 4vw;
-  margin-top: -7vh;
-  width: 30%;
+  position: absolute;
+  left: 6vw;
+  top: 20vh;
+  width: 35%;
   height: auto;
 }
-
-.searchtag {
-  margin-left: 12vw;
-  margin-top: -35vh;
-  width: 20%;
-  height: auto;
-}
-
 
 form {
-  margin-left: 12.3vw;
-  margin-top: 2vh;
+  position: absolute;
+  left: 14vw;
+  top: 30vh;
   width: 20%;
   height: auto;
 }
 
 .quotes {
+  position: relative;
+  top: 90vh;
   display: flex;
+  align-items: flex;
   justify-content: center;
-  margin-top: 8vh;
+}
+
+#btn {
+  background: none;
+  border: none;
+}
+
+#qpage {
+  position: absolute;
+  bottom: -23vh;
+  left: 63vw;
+  padding: 5vw;
+  border: 3px solid black;
+  border-radius: 60%;
+  width: 16%;
   height: auto;
+  font-size: 35px;
+  color: black;
+  font-weight: bold;
 }
-
-
-
-.qpage {
-    margin: 3vh 29vw;
-    border: 3px solid black;
-    padding: 15vh 12vw;
-    border-radius: 60%;
-    width: 16%;
-    height: auto;
-}
-
-/* @media screen and (max-width: 375px) {
-  header {
-    margin-top: -20px;
-    background-color: #ADE2D0ff;
-    margin-bottom: 10px;
-    width: 100%;
-  }
-  
-  nav ul {
-    list-style: none;
-  }
-  
-  nav li {
-    display: inline-block;
-    padding: 70px 20px 20px 20px;
-  }
-  
-  nav {
-    text-align: right;
-  }
-  
-  @keyframes moveShip {
-    0% {
-      transform: translate3d(-400px, 0, 0);
-    }
-    100% {
-      transform: translate3d(1900px, 0, 0);
-    }
-  }
-  
-  .PX {
-    position: relative;
-    margin-top: -120px;
-    animation: moveShip linear infinite 5s;
-  }
-
-} */
 
 #data-container {
-  margin-left: 10vw;
+  position: absolute;
+  left: 5vw;
+  top: 32vh;
+}
+
+.picture {
+  width: 400px;
+  height: 600px;
+}
+
+
+.species {
+  position: relative;
+  top: -66vh;
+  left: 27vw;
+}
+
+.planet{
+  position: relative;
+  top: -66vh;
+  left: 27vw;
+}
+
+.voiced {
+  position: relative;
+  top: -65vh;
+  left: 27vw;
+}
+
+.profession {
+  position: relative;
+  top: -64vh;
+  left: 27vw;
 }
 
 /* -----------------------------------------------------------FOOTER----------------------------------------------------- */
 
 footer {
-  padding: 10px;
-  background-color: #ADE2D0ff;
+  position: relative;
+  top: 105vh;
+  margin-top: 20px;
   margin-bottom: -25px;
+  padding-bottom: 40px;
+  background-color: #ADE2D0ff;
+
 }
 
 h6 {
   text-align: center;
+}
+
+/* --------------------------------------------------------MEDIA QUERY-----------------------------------------------------*/
+
+@media all and (max-width: 900px) {
+
+  html {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0px;
+  overflow-x: hidden;
+  }
+
+  header {
+  margin-top: -20px;
+  background-color: #ADE2D0ff;
+  margin-bottom: 5px;
+  max-width: auto;
+  max-height: 20vh;
+  display: block;
+  overflow-x: hidden;
+  }
+
+ @keyframes moveShip {
+  0% {
+    transform: translate3d(-450px, 0, 0);
+  }
+  100% {
+    transform: translate3d(800px, 0, 0);
+  }
+} 
+
+.PX {
+  position: absolute;
+  width: auto;
+  animation: moveShip linear infinite 3s;
+}
+
+  .species {
+    position: relative;
+    top: -50vh;
+    left: 60vw;
+  }
+  .planet{
+    position: relative;
+    top: -40vh;
+    left: 60vw;
+  }
+  .voiced {
+    position: relative;
+    top: -46.5vh;
+    left: 60vw;
+  }
+  .profession { 
+    position: absolute;
+    top: 48vh;
+    left: 60vw;
+  }
+  
+  #qpage {
+  position: absolute;
+  bottom: -45vh;
+  left: 55vw;
+  padding: 5vw;
+  border: 3px solid black;
+  border-radius: 60%;
+  width: 25%;
+  height: auto;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.quotes {
+  position: absolute;
+  top: 130vh;
+  left: 1vw;
+}
+  
+.title-font {
+  position: absolute;
+  right: 15vw;
+  bottom: 83.5vh;
+  width: 60%;
+  height: auto;
+  }
+
+  .watch {
+    position: absolute;
+    right: 31vw;
+    top: 10vh;
+    width: 50%;
+  }
 }
