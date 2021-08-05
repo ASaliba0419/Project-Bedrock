@@ -11,7 +11,7 @@ Slurm-Factory is a Futurama API that takes a search request and returns a charac
 ## API and Data Sample
 
 The API I will be using is from futuramaapi.herokuapp.com/api/v2/characters
-   
+
     {
         "Species": "Decapodian Monster",
         "Age": "86-92",
