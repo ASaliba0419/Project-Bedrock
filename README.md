@@ -77,5 +77,23 @@ The API I will be using is from futuramaapi.herokuapp.com/api/v2/characters
 
 ## Code Snippet
 
+@keyframes moveShip {
+  0% {
+    transform: translate3d(-375px, 0, 0);
+  }
+  100% {
+    transform: translate3d(1800px, 0, 0);
+  }
+}
+
+.PX {
+  /* position: relative; */
+  margin-top: -7vh;
+  width: 20%;
+  animation: moveShip linear infinite 5s;
+}
+
+This was my favorite code I wrote because taking a stationary object and being able to make it move was a new and exciting learning experience for me
+
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.
+I decided to change the title from the left side of the screen to the middle top. I decided to do that because I felt it gave the website more of a presence rather than having nothing in the header other than "Watch Futurama". I also removed the two nav links I had set up because I felt they were no longer necessary. 
