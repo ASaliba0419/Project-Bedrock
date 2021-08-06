@@ -97,3 +97,7 @@ This was my favorite code I wrote because taking a stationary object and being a
 
 ## Change Log
 I decided to change the title from the left side of the screen to the middle top. I decided to do that because I felt it gave the website more of a presence rather than having nothing in the header other than "Watch Futurama". I also removed the two nav links I had set up because I felt they were no longer necessary. 
+
+## Link
+
+https://asaliba0419.github.io/Slurm-Factory/
