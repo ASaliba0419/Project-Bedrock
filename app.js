@@ -7,10 +7,11 @@ const getAllCharacters = async () => {
   try {
     const allCharacterURL = `https://futuramaapi.herokuapp.com/api/v2/characters`
     const response = await axios.get(allCharacterURL)
+    const response2 = await axios.get("https://raw.githubusercontent.com/Katedam/futurama-api/master/allCharacters.json")
     console.log(response.data)
+    optionTags(response2.data)
 
-
-    optionTags(response.data)
+    // optionTags(response.data)
     return response
   } catch (error) {
     console.error(error)
@@ -20,20 +21,16 @@ const getAllCharacters = async () => {
 getAllCharacters()
 
 function optionTags(charList) {
-  // console.log(charList)
 
-  charList.forEach((char, index) => {
-    // console.log(char.Name)
-    // console.log(index)
+  for (let i = 0; i < 7; i++) {
     let optionTag = document.createElement('option')
     // console.log(optionTag)
-    optionTag.textContent = char.Name
-    optionTag.value = index
+    
+    optionTag.textContent = charList[i].Name
+    optionTag.value = charList[i].Name
 
     selectTag.append(optionTag)
-
-
-  })
+  }
 
 }
 
@@ -49,42 +46,43 @@ form.addEventListener("submit", (e) => {
 // ------------------------------------------------------------------
 
 renderList = (render) => {
+  console.log(render)
   const dataContainer = document.querySelector('#data-container')
   removeElement(dataContainer)
 
 
   let nameEl = document.createElement("h1")
   dataContainer.appendChild(nameEl)
-  nameEl.textContent = `${render[selectTag.value].Name}`
-  nameEl.value = `${render[selectTag.value].Name}`
+  nameEl.textContent = `${render[0].Name}`
+  nameEl.value = `${render[0].Name}`
 
   let picPic = document.createElement('img')
   dataContainer.appendChild(picPic)
-  picPic.src = `${render[selectTag.value].PicUrl}`
+  picPic.src = `${render[0].PicUrl}`
   picPic.classList.add('picture')
 
   let planetEl = document.createElement("h2")
   dataContainer.appendChild(planetEl)
-  planetEl.textContent = `Planet: ${render[selectTag.value].Planet}`
-  planetEl.value = `Planet: ${render[selectTag.value].Planet}`
+  planetEl.textContent = `Planet: ${render[0].Planet}`
+  planetEl.value = `Planet: ${render[0].Planet}`
   planetEl.classList.add('planet')
 
   let speciesEl = document.createElement("h2")
   dataContainer.appendChild(speciesEl)
-  speciesEl.textContent = `Species: ${render[selectTag.value].Species}`
-  speciesEl.value = `${render[selectTag.value].Species}`
+  speciesEl.textContent = `Species: ${render[0].Species}`
+  speciesEl.value = `${render[0].Species}`
   speciesEl.classList.add('species')
 
   let voiceEl = document.createElement("h2")
   dataContainer.appendChild(voiceEl)
-  voiceEl.textContent = `Voiced by: ${render[selectTag.value].VoicedBy}`
-  voiceEl.value = `${render[selectTag.value].VoicedBy}`
+  voiceEl.textContent = `Voiced by: ${render[0].VoicedBy}`
+  voiceEl.value = `${render[0].VoicedBy}`
   voiceEl.classList.add('voiced')
 
   let professionEl = document.createElement("h2")
   dataContainer.appendChild(professionEl)
-  professionEl.textContent = `Profession: ${render[selectTag.value].Profession}`
-  professionEl.value = `${render[selectTag.value].Profession}`
+  professionEl.textContent = `Profession: ${render[0].Profession}`
+  professionEl.value = `${render[0].Profession}`
   professionEl.classList.add('profession')
 }
 
@@ -93,7 +91,9 @@ renderList = (render) => {
 
 const getData = async (charValue) => {
   try {
-    const data = await axios.get('http://futuramaapi.herokuapp.com/api/v2/characters?search=')
+    console.log(charValue)
+    const data = await axios.get(`http://futuramaapi.herokuapp.com/api/v2/characters?search=${charValue}`)
+    console.log(data)
     renderList(data.data)
     return data
 
