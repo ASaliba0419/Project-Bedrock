@@ -8,7 +8,6 @@ const getAllCharacters = async () => {
     const allCharacterURL = `https://futuramaapi.herokuapp.com/api/v2/characters`
     const response = await axios.get(allCharacterURL)
     const response2 = await axios.get("https://raw.githubusercontent.com/Katedam/futurama-api/master/allCharacters.json")
-    console.log(response.data)
     optionTags(response2.data)
 
     return response
@@ -32,19 +31,16 @@ function optionTags(charList) {
 
 }
 
-console.log(form)
 
 form.addEventListener("submit", (e) => {
   e.preventDefault()
   const charValue = document.querySelector('select').value
-  console.log(charValue)
   getData(charValue)
 })
 
 // -----------------------------------------------------------------------------------------------
 
 renderList = (render) => {
-  console.log(render)
   const dataContainer = document.querySelector('#data-container')
   removeElement(dataContainer)
 
@@ -89,9 +85,7 @@ renderList = (render) => {
 
 const getData = async (charValue) => {
   try {
-    console.log(charValue)
     const data = await axios.get(`https://futuramaapi.herokuapp.com/api/v2/characters?search=${charValue}`)
-    console.log(data)
     renderList(data.data)
     return data
 
