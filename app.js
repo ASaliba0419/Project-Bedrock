@@ -90,7 +90,7 @@ renderList = (render) => {
 const getData = async (charValue) => {
   try {
     console.log(charValue)
-    const data = await axios.get(`http://futuramaapi.herokuapp.com/api/v2/characters?search=${charValue}`)
+    const data = await axios.get(`https://futuramaapi.herokuapp.com/api/v2/characters?search=${charValue}`)
     console.log(data)
     renderList(data.data)
     return data
