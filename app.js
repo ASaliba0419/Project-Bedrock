@@ -11,7 +11,6 @@ const getAllCharacters = async () => {
     console.log(response.data)
     optionTags(response2.data)
 
-    // optionTags(response.data)
     return response
   } catch (error) {
     console.error(error)
@@ -24,7 +23,6 @@ function optionTags(charList) {
 
   for (let i = 0; i < 7; i++) {
     let optionTag = document.createElement('option')
-    // console.log(optionTag)
     
     optionTag.textContent = charList[i].Name
     optionTag.value = charList[i].Name
@@ -43,7 +41,7 @@ form.addEventListener("submit", (e) => {
   getData(charValue)
 })
 
-// ------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------
 
 renderList = (render) => {
   console.log(render)

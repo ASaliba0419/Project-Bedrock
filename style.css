@@ -64,10 +64,6 @@ nav {
   z-index: 1;
   right: 1vw;
 }
-
-/* -----------------------------------------------------------HEADER----------------------------------------------------- */
-
-
   
 .goodnews {
   position: absolute;
@@ -105,7 +101,7 @@ form {
 
 .quotes {
   position: relative;
-  top: 70vh;
+  top: 78vh;
   display: flex;
   align-items: flex;
   justify-content: center;
@@ -167,8 +163,6 @@ form {
   max-width: 35%;
 }
 
-/* -----------------------------------------------------------FOOTER----------------------------------------------------- */
-
 footer {
   position: relative;
   top: 95vh;
@@ -188,14 +182,14 @@ h6 {
 
 @media all and (max-width: 900px) {
 
-  html {
+html {
   padding: 0;
   margin: 0;
   box-sizing: 0px;
   overflow-x: hidden;
   }
 
-  header {
+header {
   margin-top: -20px;
   background-color: #ADE2D0ff;
   margin-bottom: 5px;
@@ -232,33 +226,33 @@ h6 {
   height: 350px;
 }
 
-  .species {
-    position: relative;
-    top: -48vh;
-    left: 27vw;
-    max-width: 35%;
+.species {
+  position: relative;
+  top: -48vh;
+  left: 27vw;
+  max-width: 35%;
   }
-  .planet{
-    position: relative;
-    top: -27vh;
-    left: 27vw;
-    max-width: 37%;
+.planet{
+  position: relative;
+  top: -27vh;
+  left: 27vw;
+  max-width: 37%;
   }
-  .voiced {
-    position: relative;
-    top: -36vh;
-    left: 27vw;
-    max-width: 45%;
+.voiced {
+  position: relative;
+  top: -36vh;
+  left: 27vw;
+  max-width: 45%;
   }
-  .profession { 
-    position: absolute;
-    top: 50vh;
-    left: 0vw;
-    font-size: 20px;
-    max-width: 70%;
+.profession { 
+  position: absolute;
+  top: 50vh;
+  left: 0vw;
+  font-size: 20px;
+  max-width: 70%;
   }
   
-  #qpage {
+#qpage {
   position: absolute;
   bottom: -12vh;
   left: 55vw;
@@ -303,28 +297,28 @@ form {
   height: auto;
   }
 
-  .video {
-    position: absolute;
-    left: 50vw;
-    top: 25vh;
-    width: 40%;
-    height: 40vh;
-    }
+.video {
+  position: absolute;
+  left: 50vw;
+  top: 25vh;
+  width: 40%;
+  height: 40vh;
+  }
   
-  .goodnews {
-    position: absolute;
-    left: 45vh;
-    top: 22vh;
-    width: 40%;
-    }
+.goodnews {
+  position: absolute;
+  left: 45vh;
+  top: 22vh;
+  width: 40%;
+  }
 
-  footer {
-    position: relative;
-    top: 105vh;
-    margin-top: 20px;
-    margin-bottom: -25px;
-    padding-bottom: 70px;
-    background-color: #ADE2D0ff;
+footer {
+  position: relative;
+  top: 105vh;
+  margin-top: 20px;
+  margin-bottom: -25px;
+  padding-bottom: 70px;
+  background-color: #ADE2D0ff;
   }
 }
 
@@ -333,7 +327,7 @@ form {
 
 
 
-
+/*------------------------------------------------------ MEDIA QUERY 2 -----------------------------------------------------*/
 
 
 
@@ -341,21 +335,21 @@ form {
 
 @media all and (max-width: 500px) {
 
-  .title-font{
-    position: absolute;
-    top: 0vh;
-    left: 5vw;
-    width: 90%;
+.title-font{
+  position: absolute;
+  top: 0vh;
+  left: 5vw;
+  width: 90%;
   }
 
-  .watch {
-    position: absolute;
-    width: 50%;
-    left: 25vw;
-    top: 9vh;
+.watch {
+  position: absolute;
+  width: 50%;
+  left: 25vw;
+  top: 9vh;
   }
 
-  @keyframes moveShip {
+@keyframes moveShip {
   0% {
     transform: translate3d(-450px, 0, 0);
   }
@@ -407,84 +401,75 @@ form {
 
 
 
-  #data-container {
-    position: absolute;
-    left: 27vw;
-    top: 80vh;
+#data-container {
+  position: absolute;
+  left: 27vw;
+  top: 80vh;
   }
   
-  .picture {
-    width: 100px;
-    height: 250px;
+.picture {
+  width: 100px;
+  height: 250px;
   }
   
-    .species {
-      position: relative;
-      top: -32vh;
-      left: 30vw;
-      font-size: 15px;
-      max-width: 40%;
-    }
-    .planet{
-      position: relative;
-      top: -18vh;
-      left: 30vw;
-      font-size: 15px;
-      max-width: 60%;
-    }
-    .voiced {
-      position: relative;
-      top: -20vh;
-      left: 30vw;
-      font-size: 15px;
-      max-width: 40%;
-    }
-    .profession { 
-      position: absolute;
-      top: 42vh;
-      left: -13vw;
-      font-size: 13px;
-      max-width: 100%;
-    }
-
-
-
-
-
-
-
-
-
-
-  .quotes {
-    position: absolute;
-    top: 135vh;
-    left: 12vw;
+.species {
+  position: relative;
+  top: -32vh;
+  left: 30vw;
+  font-size: 15px;
+  max-width: 40%;
+  }
+.planet{
+  position: relative;
+  top: -18vh;
+  left: 30vw;
+  font-size: 15px;
+  max-width: 60%;
+  }
+.voiced {
+  position: relative;
+  top: -20vh;
+  left: 30vw;
+  font-size: 15px;
+  max-width: 40%;
+  }
+.profession { 
+  position: absolute;
+  top: 42vh;
+  left: -13vw;
+  font-size: 13px;
+  max-width: 100%;
   }
 
-  #qpage {
-    position: absolute;
-    /* bottom: 15vh; */
-    top: 145vh;
-    left: 2vw;
-    /* padding: 10vw; */
-    padding: 7vh 10vw 5vh 10vw;
-    border: 3px solid black;
-    border-radius: 60%;
-    width: 75%;
-    height: 24vh;
-    font-size: 25px;
-    color: black;
-    font-weight: bold;
+.quotes {
+  position: absolute;
+  top: 135vh;
+  left: 12vw;
   }
 
-  footer {
-    position: relative;
-    top: 160vh;
-    margin-top: 20px;
-    margin-bottom: -25px;
-    padding-bottom: 30px;
-    background-color: #ADE2D0ff;
+#qpage {
+  position: absolute;
+  /* bottom: 15vh; */
+  top: 145vh;
+  left: 2vw;
+  /* padding: 10vw; */
+  padding: 7vh 10vw 5vh 10vw;
+  border: 3px solid black;
+  border-radius: 60%;
+  width: 75%;
+  height: 24vh;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  }
+
+footer {
+  position: relative;
+  top: 160vh;
+  margin-top: 20px;
+  margin-bottom: -25px;
+  padding-bottom: 30px;
+  background-color: #ADE2D0ff;
   }
 
 }
